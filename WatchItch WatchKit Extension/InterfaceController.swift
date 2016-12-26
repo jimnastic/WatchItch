@@ -12,6 +12,16 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBAction func detectTapGesture(_ sender: Any) {
+        print("detected tap")
+    }
+    
+    
+    @IBAction func detectSwipeGesture(_ sender: Any) {
+        print("detected swipe")
+    }
+    
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
